@@ -1,6 +1,34 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港 02 | 1x HK
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰香港家宽 03 | 1x HK
+  password: 64e05309-1997-42c2-b85e-b0424680759b
+  port: 31145
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 02 | 1x HK
+  password: aee15982-9679-41af-be77-ce8b908dc488
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
+  password: aee15982-9679-41af-be77-ce8b908dc488
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 1,11,12|香港5|@ripaojiedian
+  name: 2,12,13|香港5|@ripaojiedian
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -14,7 +42,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 1|🇭🇰2 |  2.5MB/s|16%|Disney
+  name: 2|🇭🇰2 |  2.5MB/s|16%|Disney
   network: tcp
   port: '13110'
   reality-opts:
@@ -27,7 +55,7 @@ proxies:
   udp: true
   uuid: 856619cc-b73b-452e-879d-843514750ae3
   xudp: true
-- name: 1|🇭🇰3 |  2.3MB/s|0%|Disney
+- name: 2|🇭🇰3 |  2.3MB/s|0%|Disney
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
   server: 183.232.235.2
@@ -36,7 +64,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰4 |  3.2MB/s|43%|Youtube
+  name: 2|🇭🇰4 |  3.2MB/s|43%|Youtube
   network: ws
   port: 443
   server: 172.67.135.62
@@ -51,7 +79,7 @@ proxies:
     path: /rbqqvws
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰5 |  2.3MB/s|43%|Youtube
+  name: 2|🇭🇰5 |  2.3MB/s|43%|Youtube
   network: ws
   port: 443
   server: 104.21.6.201
@@ -65,7 +93,7 @@ proxies:
       Host: hknbyivfffj.site
     path: /rbqqvws
 - client-fingerprint: chrome
-  name: 1,13|US_speednode_0211
+  name: 2,14|US_speednode_0211
   network: ws
   port: 8880
   server: 167.68.11.20
@@ -79,7 +107,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 1|🇭🇰7 |  5.0MB/s|0%|Disney|Opena...
+- name: 2|🇭🇰7 |  5.0MB/s|0%|Disney|Opena...
   network: ws
   port: '80'
   server: 45.131.210.236
@@ -95,7 +123,7 @@ proxies:
   xudp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   password: ENYGONDU94UW1G6X
   port: 15010
   server: 8tv68qhq.slashdevslashnetslashtun.net
@@ -103,7 +131,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -120,7 +148,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 35921
   server: 120.198.71.216
   skip-cert-verify: false
@@ -131,7 +159,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
+  name: 12|🇭🇰 香港4|@ripaojiedian
   port: 19019
   server: 45.89.233.67
   skip-cert-verify: false
@@ -142,7 +170,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
+  name: 12|🇭🇰 香港6|@ripaojiedian
   port: 45939
   server: 103.30.76.218
   skip-cert-verify: false
@@ -153,7 +181,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港7|@ripaojiedian
+  name: 12,13|香港7|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -170,7 +198,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港8|@ripaojiedian
+  name: 12,13|香港8|@ripaojiedian
   network: ws
   port: '8080'
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -186,7 +214,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -196,7 +224,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|香港4|@ripaojiedian
+  name: 13|香港4|@ripaojiedian
   network: tcp
   port: '19019'
   server: 45.89.233.67
@@ -206,7 +234,7 @@ proxies:
   uuid: 802e1632-9c29-4f2d-821f-96a35daeed3b
 - alterId: 0
   cipher: auto
-  name: 12|香港6|@ripaojiedian
+  name: 13|香港6|@ripaojiedian
   network: tcp
   port: '45939'
   server: 103.30.76.218
