@@ -1,44 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: c9c59927-05b7-47eb-93e5-4f06cb90bb55
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 07f08a19-5241-46ee-947b-2130335e6612
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: c9c59927-05b7-47eb-93e5-4f06cb90bb55
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 07f08a19-5241-46ee-947b-2130335e6612
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: c9c59927-05b7-47eb-93e5-4f06cb90bb55
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 07f08a19-5241-46ee-947b-2130335e6612
   port: 31215
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 0d8c6bdd-10a3-4fd3-bcfd-a61330c434a0
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 0d8c6bdd-10a3-4fd3-bcfd-a61330c434a0
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 0d8c6bdd-10a3-4fd3-bcfd-a61330c434a0
-  port: 36215
-  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -1355,6 +1334,46 @@ proxies:
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
+- name: '11|Channel id: @ShadowProxy66🇺🇸'
+  password: 238c7704-944d-40cd-a1cf-fb775d51ac54
+  port: 21042
+  server: 164.152.33.5
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #1'
+  password: 87f055ba
+  port: 60000
+  server: 141.11.89.172
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #2'
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.207.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #3'
+  password: dongtaiwang.com
+  port: 65232
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '11|Channel id: @ShadowProxy66🇺🇸 #4'
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 64.181.204.186
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian
