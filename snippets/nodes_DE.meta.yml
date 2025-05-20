@@ -1,9 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 5f442d2d-9ac1-466b-8ece-26090f74222d
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: c9c59927-05b7-47eb-93e5-4f06cb90bb55
   port: 31471
   server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: 0d8c6bdd-10a3-4fd3-bcfd-a61330c434a0
+  port: 36471
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
@@ -92,15 +99,6 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: '11|Channel id: @ShadowProxy66🇩🇪'
-  obfs: salamander
-  obfs-password: PassWord1
-  password: PassWord2
-  port: 8443
-  server: 45.138.99.106
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 14|DE_speednode_0008
   network: ws
   port: 8880
