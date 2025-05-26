@@ -1,23 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 101 | 1x SG
-  password: 4aaf000d-12a1-43af-9116-14e1d427c198
+  name: 0|🇸🇬 新加坡 01 官网：a9j7qv.allbluess....
+  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
+  port: 36171
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 官网：d3jp53.allbluess....
+  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
+  port: 36173
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 101 官网：msplq0.mikasass01...
+  password: ea1dc83f-7c7b-4984-af14-08071a162186
   port: 31171
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 102 | 1x SG
-  password: 4aaf000d-12a1-43af-9116-14e1d427c198
+  name: 1|🇸🇬新加坡 102 官网：oz02ey.mikasass01...
+  password: ea1dc83f-7c7b-4984-af14-08071a162186
   port: 31173
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 103 | 1x SG
-  password: 4aaf000d-12a1-43af-9116-14e1d427c198
+  name: 1|🇸🇬新加坡 103 官网：04rwea.mikasass.p...
+  password: ea1dc83f-7c7b-4984-af14-08071a162186
   port: 31175
-  server: free.2apzhfa.xyz
+  server: freem.vidalith.com
   type: ss
   udp: true
 - alterId: 64
